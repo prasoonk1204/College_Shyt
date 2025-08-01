@@ -26,3 +26,9 @@ int main() {
     
     return 0;
 }
+
+// Output
+
+// Enter the number of elements: 5
+// Enter elements: 10 39 33 56 45
+// 56 is the largest number.
