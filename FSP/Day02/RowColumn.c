@@ -30,3 +30,11 @@ int main() {
     }
     return 0;
 }
+
+// Enter no. of rows and columns: 5
+// Output: 
+//   10    0    0    0   20 
+//    0   10    0   20    0 
+//    0    0   30    0    0 
+//    0   20    0   10    0 
+//   20    0    0    0   10 
