@@ -14,6 +14,6 @@ void sumAndSubtraction() {
 }
 
 int main() {
-    sumAndSubtraction(); // function call
+    sumAndSubtraction();
     return 0;
 }
