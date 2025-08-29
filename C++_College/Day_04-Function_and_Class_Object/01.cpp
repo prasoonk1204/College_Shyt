@@ -1,19 +1,28 @@
-// 1. Write a program to do sum and subtraction of two numbers using function (without parameters and
-// without return type)
-
 #include <iostream>
 using namespace std;
 
-void sumAndSubtraction() {
-    int a, b;
-    cout << "Enter two numbers: ";
+void addition() {
+    int a, b, sum;
+    cout << "Enter two numbers for addition: ";
     cin >> a >> b;
+    sum = a + b;
+    cout << "Sum = " << sum << endl;
+}
 
-    cout << "Sum = " << (a + b) << endl;
-    cout << "Subtraction = " << (a - b) << endl;
+void subtraction() {
+    int a, b, diff;
+    cout << "Enter two numbers for subtraction: ";
+    cin >> a >> b;
+    diff = a - b;
+    cout << "Difference = " << diff << endl;
 }
 
 int main() {
-    sumAndSubtraction();
+    cout << "=== Addition ===" << endl;
+    addition();
+
+    cout << "\n=== Subtraction ===" << endl;
+    subtraction();
+
     return 0;
 }
