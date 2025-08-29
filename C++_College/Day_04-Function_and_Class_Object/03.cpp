@@ -34,10 +34,34 @@ public:
 
 int main() {
     Calculator c;
+    int choice;
+    
     c.input();
-    c.add();
-    c.subtract();
-    c.multiply();
-    c.divide();
+
+    cout << "Calculator Menu:\n";
+    cout << "1. Addition\n";
+    cout << "2. Subtraction\n";
+    cout << "3. Multiplication\n";
+    cout << "4. Division\n";
+    cout << "Enter your choice (1-4): ";
+    cin >> choice;
+
+    switch (choice) {
+        case 1:
+            c.add();
+            break;
+        case 2:
+            c.subtract();
+            break;
+        case 3:
+            c.multiply();
+            break;
+        case 4:
+            c.divide();
+            break;
+        default:
+            cout << "Invalid choice!" << endl;
+    }
+
     return 0;
 }
