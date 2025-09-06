@@ -7,7 +7,7 @@ class Test1 {
         b = 20;
     }
     void disp(){
-        System.out.println("The value of a is: "+a+" "+b);
+        System.out.println("The value of a and b is: "+a+" "+b);
     }
 }
 
