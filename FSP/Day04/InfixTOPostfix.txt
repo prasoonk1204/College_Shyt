@@ -1,0 +1,12 @@
+Infix to Postfix
+
+1. Print operands as they arrive
+2. If stack is empty or left parenthesis is present on the top of the stack, push the incoming operator onto the stack
+3. If incoming symbol is left parenthesis then push it onto the stack
+4. If incoming symbol is right parenthesis then pop the stack and print them until left parenthesis encountered
+5.i) If incoming symbol has higher precedence than the top of stack then push it to stack
+  ii) If incoming symbol has lower precedence than the top of the stack then pop and print the top of iii) the stack and again check the next symbol in the stack
+  iv) If incoming symbol has equal precedence with the top of the stack then use associative rule
+        a. If associativity is fron left to right then pop and print the top of the stack and psuh the incoming operator
+        b. If associativity is from right to left then push the incoming operator
+6. At the end of the expression, pop and print all the operators from the stack
