@@ -4,3 +4,23 @@ JVM keeps track of such kind of un-reference objects and remove them from memory
 
 Short Note:- A particular object can have more than one references but a single reference variable cannot point to 2 objects at the same time.
 
+Inheritance
+It is the mechanism by which one class aquires the features of another class. Through inheritance java supports the concept of code reusability.
+
+Types of inheritance:-
+1. Single Level Inheritance
+2. Multilevel Inheritance
+3. Multiple Inheritance
+4. Hierarchial
+5. Hybrid
+
+Single Level Inheritance
+ A  Parent/Super/Base
+ |
+ v
+ B  Child/Sub/Derived
+
+In Single Level Inheritance one class is derived from another class. The class from which one class is derived is called Parent/Super/Base class and the class 
+which is derived is called Child/Sub/Derived class
+
+
