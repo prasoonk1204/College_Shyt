@@ -1,0 +1,6 @@
+In java when an object looses its reference that object is considered in no longer in use. Such kinds of un-refernce objects are called garbage in java.
+JVM keeps track of such kind of un-reference objects and remove them from memory automatically when required. This mechanism of automatic removal of un-
+-reference objects by JVM is called garbage collection. The time for garbage collection can not be predicted in advance.
+
+Short Note:- A particular object can have more than one references but a single reference variable cannot point to 2 objects at the same time.
+
