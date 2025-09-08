@@ -23,4 +23,15 @@ Single Level Inheritance
 In Single Level Inheritance one class is derived from another class. The class from which one class is derived is called Parent/Super/Base class and the class 
 which is derived is called Child/Sub/Derived class
 
+Multilevel Inheritance
 
+ A  Parent of A/ Grandparent of C
+ |
+ v
+ B  Child of A/ Parent of C
+ |
+ v
+ B  Child of C/ Grandchild of A
+ Here one class is derieved from another class, and from that derived class another class is derived
+
+ 
