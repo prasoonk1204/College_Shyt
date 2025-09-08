@@ -44,5 +44,9 @@ Multilevel Inheritance
 
 Variable overding
 If a child class variable has the same name as that of the parent class variable then the variable of the child class tends to hide the variable of its parent class> this mech is called variable overriding.
-In order to access the hidden parent class variable in the child class we require the help of super keyword.
+In order to access the hidden parent class variable in the child class we require the help of super keyword. Through variable overriding java supports the concept of polymorphism
+
+Method overding
+In java it is possible for a method in the child class to have the same name as that of method in the parent class. This mechanism is called method overriding where the child class method hide the 
+parent class method. In order to access the hidden parent class method in the child class we require the help of super keyword.
 
