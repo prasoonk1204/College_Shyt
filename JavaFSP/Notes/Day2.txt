@@ -34,4 +34,15 @@ Multilevel Inheritance
  B  Child of C/ Grandchild of A
  Here one class is derieved from another class, and from that derived class another class is derived
 
- 
+ Hybrid Inheritance
+ Hybrid Inheritance is the collection of all the above inheritances except Multiple inheritance.
+   A  
+ |   |
+ v   v 
+ B   C
+     
+
+Variable overding
+If a child class variable has the same name as that of the parent class variable then the variable of the child class tends to hide the variable of its parent class> this mech is called variable overriding.
+In order to access the hidden parent class variable in the child class we require the help of super keyword.
+
