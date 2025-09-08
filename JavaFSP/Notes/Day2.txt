@@ -48,5 +48,17 @@ In order to access the hidden parent class variable in the child class we requir
 
 Method overding
 In java it is possible for a method in the child class to have the same name as that of method in the parent class. This mechanism is called method overriding where the child class method hide the 
-parent class method. In order to access the hidden parent class method in the child class we require the help of super keyword.
+parent class method. In order to access the hidden parent class method in the child class we require the help of super keyword. Using Method overding, java supports the concept of polymorphism.
 
+What is the use of super keyword?
+If a parent class member is hidden by a child class member then in order to access the hidden parent class member in the child class we require the help of super keyword.
+
+Use of final keyword
+It have 3 uses:-
+1. To create a naming constant.
+2. To prevent method overriding.
+3. To prevent inheritance of a class.
+
+Use of this keyword
+If a instance variable has the same name as that of the local variable then the local variable tends to hide the instance variable of the class. In order to resolve this name space 
+collision we require the help of this keyword. this is a keyword which always refers to the instance variable of the class. 
