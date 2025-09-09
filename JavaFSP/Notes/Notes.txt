@@ -144,3 +144,74 @@ A package access can be classified into 5 Types: -
 3. Same Package Nonsub Class
 4. Different Package Sub Class
 5. Different Package Nonsub Class
+
+Same Package Same Class
+SPSC
+|-------control.java
+P1
+|
+Abc.java
+
+In case of same package same class all the variables are accessible irrespective of their access specifier.
+
+Same Package Sub Class
+SPBC
+|-------control.java
+P1
+|
+abc.java
+|
+xyz.java
+A private variable is not inherited to the child class
+
+Same Package Nonsub Class
+        SPNSBC
+        |-------control.java
+        P1
+  |           |
+abc.java    xyz.java   
+
+Different Package Sub Class
+        DPSC
+  |             |-------control.java
+  P1            P2
+  |             |
+  abc.java ->   xyz.java
+
+A default variable is only accessible within the same package
+
+Different Package Nonsub Class
+        DPNSBC
+  |             |-------control.java
+  P1            P2
+  |             |
+  abc.java ->   xyz.java
+
+If a variable has private access then that variable is accessible only by the methods which belong to the same class as that of the variable
+if a variable has public access then it is accessable for anyware in the code.
+if we doesn't writew any access specifier befire a variable declaration the that variable is said to have adefault access.a variable with 
+default access is only acesable the call which contains the variable and the class which contains method both belongs fromthe same class.
+
+Exception Handling
+
+In java Exception is nothing but the runtime error. When an Exception occurs in java it is the jvm which by default handles the Exception.
+JVM stops the execution of the program at that line which generates the Exception. 
+In order to stop this from happening we as a coder needs to handle the exception on our own. That is why it is called as exception Handling
+In Java we can handle the exception using 5 keywords: -
+1. try
+2. catch
+3. throw
+4. throws
+5. finally
+
+Use of try and catch block
+A try is block which contain those statements which may or maynot generatesa exception.
+A try block is always followed by one catch block.
+When an exception is occurred in the try block the program control comes out from the try block and goes to the matching catch block.It is inside the catch block where we have to write the 
+exception handling code.
+      Object
+        |
+      Throwable
+      |       |
+    error     Exception
+
