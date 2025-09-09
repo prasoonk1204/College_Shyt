@@ -106,3 +106,6 @@ interface interfacename {
 class classname implements interfacename1, interfacename1, .... {
   body of the class
 }
+
+Functional interface
+An interface which consist only one abscrat is called as Functional interface
