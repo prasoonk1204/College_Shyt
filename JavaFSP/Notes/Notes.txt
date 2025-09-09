@@ -43,7 +43,8 @@ Multilevel Inheritance
      
 
 Variable overding
-If a child class variable has the same name as that of the parent class variable then the variable of the child class tends to hide the variable of its parent class> this mech is called variable overriding.
+If a child class variable has the same name as that of the parent class variable then the variable of the child class tends to hide the variable of its parent class, 
+this mechanism is called variable overriding.
 In order to access the hidden parent class variable in the child class we require the help of super keyword. Through variable overriding java supports the concept of polymorphism
 
 Method overding
@@ -87,3 +88,21 @@ An Abstract Class may contain normal methods as well as abstract methods. An abs
 An Abstract Class always act as a super class.
 We cannot create an object of an abstract class. The childd class which extends an abstract class has to provide a body to all the abstract methods of the abstract class.
 Using abstract class we can create a blueprint of a code.
+
+Disadvantage of Abstract Class
+An Abstract Class does not create a pure blueprint of a code
+
+Interface
+An Interface is a special type of class where the variables are by default static and final and the methods are by default public and abstract. 
+We canot create an object of a interface.
+The class which is used to implement and interface has to provid body to all the abstract method of the interface.
+An interface is used to support multiple inheriance in java indirectly and it is also used to create a pure blueprint of a code.
+       SYNTAX:
+interface interfacename {
+  static and final variable declaration
+  public and abstract method
+}
+       SYNTAX of a class implementing an interface:
+class classname implements interfacename1, interfacename1, .... {
+  body of the class
+}
