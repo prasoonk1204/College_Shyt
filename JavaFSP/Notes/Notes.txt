@@ -120,3 +120,27 @@ Compile time polymorphism is implemented suing concepts like method overloading 
 A Compile time polymorphism is also termed as Early binding.
 A run time polymorphism is implemented using the concept of Dynamic method dispatch.
 A run time polymorphism is also called as late binding.
+
+---------------------------------------------------------------------------------------
+Package in java
+A Package in java maybe defined as a collection of classes, interfaces, as well as other Package.
+A Package is used in order to create library in java.
+
+A Package is used for 2 reasons: -
+1. To perform code reusability.
+2. In order to provide data security.
+
+In order to get all the 6 classes we need to import all the 3 statements together
+*---> All classes
+import abc.*; // a,b 
+  import abc.xyz.*; // x,y
+    import abc.xyz.mno.*; // m,n 
+      import abc.xyz.y; // y
+
+Types of package access in java
+A package access can be classified into 5 Types: -
+1. Same Package Same Class
+2. Same Package Sub Class
+3. Same Package Nonsub Class
+4. Different Package Sub Class
+5. Different Package Nonsub Class
