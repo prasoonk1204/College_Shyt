@@ -74,6 +74,13 @@ except ValueError as ve:
     print("Unsuccessful searching...")
 
 
+var1 = (10)
+print(var1, type(var1))     # gives type as "int"
+
+var1 = (10,)        # singleton represenatation of a tuple
+print(var1, type(var1))
+
+
 # Problem on Piglatin word generator:
 # Input_String = "mohan das karam chand gandhi"
 # Output_String = "ohanmp asdp aramkp handcp andhigp"
