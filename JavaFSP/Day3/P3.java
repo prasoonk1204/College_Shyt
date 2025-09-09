@@ -17,9 +17,9 @@ class Inner implements i1, i2 {
 }
 public class P3 {
     public static void main(String[] args) {
-        Inner ob1 = new Inner();
+        i1 ob1 = new Inner();
         ob1.disp1();
-        Inner ob2 = new Inner();
+        i2 ob2 = new Inner();
         ob2.disp2();
     }
 }
