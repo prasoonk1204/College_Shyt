@@ -62,3 +62,13 @@ It have 3 uses:-
 Use of this keyword
 If a instance variable has the same name as that of the local variable then the local variable tends to hide the instance variable of the class. In order to resolve this name space 
 collision we require the help of this keyword. this is a keyword which always refers to the instance variable of the class. 
+
+If we want to create a global variable in java forcefully, how it can be done.
+If we declare a variable using the keyword public, stactic and final then that variable acts like a global variable
+
+Use of super method
+A parent class constructor is not inherited to its child class. In order to call the parent class constructor from the child class, we require the help of super method.
+
+Rules for using super method
+1. A super method call should always be present inside the child class constructor.
+2. The super method call should be the first statement inside the child class constructor.
