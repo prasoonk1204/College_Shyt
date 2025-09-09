@@ -109,3 +109,14 @@ class classname implements interfacename1, interfacename1, .... {
 
 Functional interface
 An interface which consist only one abscrat is called as Functional interface
+
+Note: - A parent class reference variable can refer to any child class object but the vice versa is not true.
+
+Dynamic method dispatch
+Dynamic method dispatch is a mechanism by which calls to overriden method are resolved at runtime. 
+It is through Dynamic method dispatch java implents the concept of runtime polymorphism.
+
+Compile time polymorphism is implemented suing concepts like method overloading and constructor overloading.
+A Compile time polymorphism is also termed as Early binding.
+A run time polymorphism is implemented using the concept of Dynamic method dispatch.
+A run time polymorphism is also called as late binding.
