@@ -72,3 +72,18 @@ A parent class constructor is not inherited to its child class. In order to call
 Rules for using super method
 1. A super method call should always be present inside the child class constructor.
 2. The super method call should be the first statement inside the child class constructor.
+
+What is the difference between method overloading and method overriding
+Method overloading:- 
+1.Here all the methods belong to the same class. 
+2. All the methods differ in the argument list
+Method overriding:- 
+1. If one belong to the parent class then other method belong to its child class.
+2. The methods does not differ in the argument list
+
+Abstract Class
+An Abstract Class is a class which has Abstract keyword applied to it.
+An Abstract Class may contain normal methods as well as abstract methods. An abstract method is a method which does not have any body.
+An Abstract Class always act as a super class.
+We cannot create an object of an abstract class. The childd class which extends an abstract class has to provide a body to all the abstract methods of the abstract class.
+Using abstract class we can create a blueprint of a code.
