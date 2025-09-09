@@ -215,3 +215,4 @@ exception handling code.
       |       |
     error     Exception
 
+A single try block may be followed by multiple catch blocks. Based on the nature of the exception appropriate catch blocks will be called.
