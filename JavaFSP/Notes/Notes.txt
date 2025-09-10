@@ -216,3 +216,27 @@ exception handling code.
     error     Exception
 
 A single try block may be followed by multiple catch blocks. Based on the nature of the exception appropriate catch blocks will be called.
+
+
+
+
+
+
+
+
+User Defined Exception
+In java it is possible to create our own exception class names provided that exception class extends the parent exception class.
+
+
+Thread in java
+A thread may be defined as smallest unit of a process which can run INDEPENDENTLY. 
+Using thread java support the concept of multitasking.
+In java a tread is created using a thread class. Every thread contains a name and a priority level.
+The priority level of a thread ranges from 1-10, where 1 is the minimum priority and 10 is the maximum priority.
+The default priority of a thread is 5.
+
+Ways for creating a Thread
+1. Implementing Runnable Interface
+2. Extending the Thread class
+
+It is inside the thread class that we have to write the code which will execute when the thread is started.
