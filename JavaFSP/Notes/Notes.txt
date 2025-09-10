@@ -246,3 +246,17 @@ If we create a thread by extending the thread class, then that class will not be
 But if we create a thread by implementing the runnable interface then that class still has the option to extend anyother class if needed.
 That is why we can say that creating a thread by implementing runable interface is the best.
 
+Various States of a Thread
+A Thread consist of following 5 steps:-
+1. New :- This is the state where the tread is first created. eg:- Thread t = new Thread();
+2. Active:- This is the state where the thread is ready to run. eg:- t.start();
+3. Running:- This is the state where the thread is actually executing. eg:- execution of the run method.
+4. Blocked:- This is the state where the execution of the thread is suspended. eg:- Thread.sleep();
+5. Terminated:- This is the state where the thread has completed its execution. eg:- t.stop();
+
+
+
+
+
+
+
