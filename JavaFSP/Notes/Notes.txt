@@ -240,3 +240,9 @@ Ways for creating a Thread
 2. Extending the Thread class
 
 It is inside the thread class that we have to write the code which will execute when the thread is started.
+
+
+If we create a thread by extending the thread class, then that class will not be able to extend any other class simultaneously is needed, this is because java does not support multiple inheriance.
+But if we create a thread by implementing the runnable interface then that class still has the option to extend anyother class if needed.
+That is why we can say that creating a thread by implementing runable interface is the best.
+
