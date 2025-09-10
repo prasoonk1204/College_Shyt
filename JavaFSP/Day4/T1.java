@@ -1,6 +1,6 @@
 // WAp to dispay a thread using runnable interface
 
-package CS393.JavaFSP.Day4;
+// package CS393.JavaFSP.Day4;
 
 class Thread1 implements Runnable { // Step 1
     public void run() { // Step 4

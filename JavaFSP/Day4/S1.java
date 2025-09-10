@@ -1,6 +1,6 @@
 // WAP to display the use of sleep
 
-package CS393.JavaFSP.Day4;
+// package CS393.JavaFSP.Day4;
 
 public class S1 {
     public static void main(String[] args) {

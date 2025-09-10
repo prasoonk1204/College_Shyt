@@ -1,5 +1,5 @@
 // WAP to create a timmer where the timer will countdown from 10 to 0 and on reaching 0 a bomb need to be exploded
-package CS393.JavaFSP.Day4;
+// package CS393.JavaFSP.Day4;
 
 public class S2 {
     public static void main(String[] args) {

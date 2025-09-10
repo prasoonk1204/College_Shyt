@@ -1,4 +1,4 @@
-package CS393.JavaFSP.Day4;
+// package CS393.JavaFSP.Day4;
 class Throweg {
     void check(String s1){
         char ch;

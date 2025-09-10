@@ -1,5 +1,5 @@
 // WAP to accept two number, find there sum and display the result after 10 sec
-package CS393.JavaFSP.Day4;
+// package CS393.JavaFSP.Day4;
 
 import java.util.Scanner;
 

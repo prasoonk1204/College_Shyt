@@ -1,6 +1,6 @@
 // WAP to create 4 different threads using main
 
-package CS393.JavaFSP.Day4;
+// package CS393.JavaFSP.Day4;
 
 class Thread1 implements Runnable { 
     public void run() { 
