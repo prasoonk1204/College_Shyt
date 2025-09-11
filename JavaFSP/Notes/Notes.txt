@@ -260,3 +260,24 @@ A Thread consist of following 5 steps:-
 
 
 
+If the character whose index position is searched occurs multiple time in the string then the index position of the first occurrence of the character from the left hand side of the string is returned.
+The lastIndexOf method returns the index position of the last occurrence of the character in the string.
+If the character whose index position is searched occurs multiple time in the string then the index position of the last occurrence of the character from the left hand side of the string is returned.
+The lastIndexOf method returns the index position of the last occurrence of the character in the string.
+If the character whose index position is searched does not occur in the string then the method returns -1.
+
+Replace method
+The replace method is used to replace the old character with the new character in the string.
+
+Trim method
+The trim method is used to remove the white spaces from the both the ends of the string.
+
+String Buffered
+String Buffer class is a mutable class. This is because any changes made to a particular string object affect the original object.
+The string buffer class is not thread safe. No new object with the change value is created.
+The String buffer class contain many methods which can be used to modify the string object.
+1. append() : concatinate 2 string together
+2. insert() : insert a character/string at a particular position in a given string (Based on the index position)
+3. delete() : delete a character/string at a particular position in a given string
+4. reverse() : reverse the string
+5. replace() : replace a character/string at a particular position in a given string
