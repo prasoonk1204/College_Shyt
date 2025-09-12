@@ -306,7 +306,7 @@ List Interface
 |-> ArrayList
 |-> LinkedList
 |-> Vector
-Set Interface
+Set Interface (Un-ordered)
 |-> HashSet
 |-> LinkedHashSet
 |-> TreeSet
@@ -321,5 +321,25 @@ Queue Interface maintains the FIFO order.
 It can be defined as an oredered list that is used to hold the elements which are about to br processed.
 There are various classes like PriorityQueue, Dequeue, and ArrayDequeue which implements the Queue Interface.
 |-> PriorityQueue 
-|-> Dequeue
+|-> Dequeue Interface
 |-> ArrayDequeue
+
+
+Database
+Db is a file which is used to store inter-related data together
+
+DBMS (DataBase Management System) :-
+It is a software using which we can manupulate the data stored in the db.
+
+RDBMS (Relational DataBase Management System):-
+It is a software which is used to manupulate the data stored in a tabular format. 
+The rows in a table are technically called tuple and the columns in a table are technically called fields/attributes/keys.
+The column in a table which does not contain duplicate elements or null value is called a primary key.
+eg:- oracle, mysql, access,etc.
+
+Steps for creating JDBC[Java DataBase Connectivity]
+1. Create a table with blank fields.
+2. Add appropriate type 4 driver for Connectivity with the database.
+3. Write appropriate SQL query in order to manipulate the data stored in the database
+
+type 4 driver and connection string
