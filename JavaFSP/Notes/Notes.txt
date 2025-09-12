@@ -216,3 +216,110 @@ exception handling code.
     error     Exception
 
 A single try block may be followed by multiple catch blocks. Based on the nature of the exception appropriate catch blocks will be called.
+
+
+
+
+
+
+
+
+User Defined Exception
+In java it is possible to create our own exception class names provided that exception class extends the parent exception class.
+
+
+Thread in java
+A thread may be defined as smallest unit of a process which can run INDEPENDENTLY. 
+Using thread java support the concept of multitasking.
+In java a tread is created using a thread class. Every thread contains a name and a priority level.
+The priority level of a thread ranges from 1-10, where 1 is the minimum priority and 10 is the maximum priority.
+The default priority of a thread is 5.
+
+Ways for creating a Thread
+1. Implementing Runnable Interface
+2. Extending the Thread class
+
+It is inside the thread class that we have to write the code which will execute when the thread is started.
+
+
+If we create a thread by extending the thread class, then that class will not be able to extend any other class simultaneously is needed, this is because java does not support multiple inheriance.
+But if we create a thread by implementing the runnable interface then that class still has the option to extend anyother class if needed.
+That is why we can say that creating a thread by implementing runable interface is the best.
+
+Various States of a Thread
+A Thread consist of following 5 steps:-
+1. New :- This is the state where the tread is first created. eg:- Thread t = new Thread();
+2. Active:- This is the state where the thread is ready to run. eg:- t.start();
+3. Running:- This is the state where the thread is actually executing. eg:- execution of the run method.
+4. Blocked:- This is the state where the execution of the thread is suspended. eg:- Thread.sleep();
+5. Terminated:- This is the state where the thread has completed its execution. eg:- t.stop();
+
+
+
+
+
+
+
+If the character whose index position is searched occurs multiple time in the string then the index position of the first occurrence of the character from the left hand side of the string is returned.
+The lastIndexOf method returns the index position of the last occurrence of the character in the string.
+If the character whose index position is searched occurs multiple time in the string then the index position of the last occurrence of the character from the left hand side of the string is returned.
+The lastIndexOf method returns the index position of the last occurrence of the character in the string.
+If the character whose index position is searched does not occur in the string then the method returns -1.
+
+Replace method
+The replace method is used to replace the old character with the new character in the string.
+
+Trim method
+The trim method is used to remove the white spaces from the both the ends of the string.
+
+String Buffered
+String Buffer class is a mutable class. This is because any changes made to a particular string object affect the original object.
+The string buffer class is not thread safe. No new object with the change value is created.
+The String buffer class contain many methods which can be used to modify the string object.
+1. append() : concatinate 2 string together
+2. insert() : insert a character/string at a particular position in a given string (Based on the index position)
+3. delete() : delete a character/string at a particular position in a given string
+4. reverse() : reverse the string
+5. replace() : replace a character/string at a particular position in a given string
+
+
+Applet
+Applet is a java program using which java implents the concept of graphics.
+The applet is a java program which contains the code for the graphics.
+The main diffrence between a normal program and an applet is that a normal program has a main method but in applet we does not have a main method.
+As applet does not have a main method it follows a life cycle.
+The life cycle of an applet is as follows:-
+1. Applet is initialized : init()
+2. Applet is started : start()
+3. Applet is stopped : stop()
+4. Applet is painted : paint()
+5. Applet is destroyed : destroy()
+
+
+ Java Collection Framework
+ Java collection is a framework which is used to implement the use of ds in java. It consist of various classes and interfaces using which java implements searching, sorting, insertion, deletion operations in a data structures.
+
+Java Collection Framework Architecture
+
+Collection Interface
+List Interface
+|-> ArrayList
+|-> LinkedList
+|-> Vector
+Set Interface
+|-> HashSet
+|-> LinkedHashSet
+|-> TreeSet
+Queue Interface
+
+Stack
+The Stack is the subclass of Vector. It implements the lIFO.
+The stacks contains all of the mothods of vector class and also provide its methods like boolean push(), pop() which defines its properties.
+
+Queue Interface
+Queue Interface maintains the FIFO order. 
+It can be defined as an oredered list that is used to hold the elements which are about to br processed.
+There are various classes like PriorityQueue, Dequeue, and ArrayDequeue which implements the Queue Interface.
+|-> PriorityQueue 
+|-> Dequeue
+|-> ArrayDequeue
