@@ -281,3 +281,33 @@ The String buffer class contain many methods which can be used to modify the str
 3. delete() : delete a character/string at a particular position in a given string
 4. reverse() : reverse the string
 5. replace() : replace a character/string at a particular position in a given string
+
+
+Applet
+Applet is a java program using which java implents the concept of graphics.
+The applet is a java program which contains the code for the graphics.
+The main diffrence between a normal program and an applet is that a normal program has a main method but in applet we does not have a main method.
+As applet does not have a main method it follows a life cycle.
+The life cycle of an applet is as follows:-
+1. Applet is initialized : init()
+2. Applet is started : start()
+3. Applet is stopped : stop()
+4. Applet is painted : paint()
+5. Applet is destroyed : destroy()
+
+
+ Java Collection Framework
+ Java collection is a framework which is used to implement the use of ds in java. It consist of various classes and interfaces using which java implements searching, sorting, insertion, deletion operations in a data structures.
+
+Java Collection Framework Architecture
+
+Collection Interface
+List Interface
+|-> ArrayList
+|-> LinkedList
+|-> Vector
+Set Interface
+|-> HashSet
+|-> LinkedHashSet
+|-> TreeSet
+Queue Interface
