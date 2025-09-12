@@ -311,3 +311,7 @@ Set Interface
 |-> LinkedHashSet
 |-> TreeSet
 Queue Interface
+
+Stack
+The Stack is the subclass of Vector. It implements the lIFO.
+The stacks contains all of the mothods of vector class and also provide its methods like boolean push(), pop() which defines its properties.

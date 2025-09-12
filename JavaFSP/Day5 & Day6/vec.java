@@ -6,7 +6,8 @@ class vec {
         // Adding elements to the vector
         vec.add("Ayan");
         vec.add("Roy");
-        vec.add("S");
+        vec.add("Ayush");
+        vec.add("Garima");
         vec.add("25");
 
         // Size of the vector
@@ -24,7 +25,7 @@ class vec {
         // Removing an element from the vector
         vec.remove("Roy");
         vec.remove(2); // Removing using index
-        
+
         // Size after removal
         System.out.println("Size of the vector after removal: " + vec.size());
         // Displaying the vector after removal
