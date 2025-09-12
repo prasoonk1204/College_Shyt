@@ -315,3 +315,11 @@ Queue Interface
 Stack
 The Stack is the subclass of Vector. It implements the lIFO.
 The stacks contains all of the mothods of vector class and also provide its methods like boolean push(), pop() which defines its properties.
+
+Queue Interface
+Queue Interface maintains the FIFO order. 
+It can be defined as an oredered list that is used to hold the elements which are about to br processed.
+There are various classes like PriorityQueue, Dequeue, and ArrayDequeue which implements the Queue Interface.
+|-> PriorityQueue 
+|-> Dequeue
+|-> ArrayDequeue
